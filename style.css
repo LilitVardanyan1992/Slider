@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 16px;
+}
+
+.slider {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__wrapper {
+    display: flex;
+    position: relative;
+}
+
+.slider .slider__item img {
+    display: block;
+}
+
+.slider .slider__btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.slider .slider__btns div {
+    padding: 4px 8px;
+    background: #ffffffca;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#count {
+    margin-bottom: 8px;
+    text-align: right;
+    font-size: 14px;
+}
